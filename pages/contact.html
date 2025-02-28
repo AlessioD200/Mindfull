@@ -3,23 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width;initial-scale=1.0">
-  <title>Aanbod - Groepslessen</title>
-  <link rel="stylesheet" href="../style/style-aanbod.css">
+  <title>Contact - Mindful Movement</title>
+  <link rel="stylesheet" href="../style/style-contact.css">
 </head>
 <body>
 <nav class="nav">
-  <a class="navbar-logo" href="../index.html">Mindful Movement</a>
-  <a class="navbar" href="./aanbod.html">Aanbod</a>
-  <a class="navbar" href="./prijzen.html">Prijzen</a>
-  <a class="navbar" href="./planning.html">Planning</a>
-  <a class="navbar" href="#">Team</a>
-  <a class="navbar" href="./contact.html">Contact</a>
-  <a class="navbar" href="./winkel.html">Winkel</a>
-  <a class="navbar" href="#">Afrekenen</a>
+  <a class="navbar-logo" href="../index.html">
+    <img src="../Images/logo.png" alt="Logo" class="logo">
+    Mindful Movement
+  </a>
+  <div class="nav-links">
+    <a class="navbar" href="./aanbod.html">Aanbod</a>
+    <a class="navbar" href="./prijzen.html">Prijzen</a>
+    <a class="navbar" href="./planning.html">Planning</a>
+    <a class="navbar" href="./team.html">Team</a>
+    <a class="navbar" href="./contact.html">Contact</a>
+    <a class="navbar" href="./winkel.html">Winkel</a>
+    <a class="navbar" href="#">Afrekenen</a>
+  </div>
 </nav>
-<div class="aanbod">
-  <h2>Programma 2025-2026</h2>
-</div>
+<section class="contact">
+  <h1>Contact</h1>
+  <div class="contact-form">
+    <form action="https://formspree.io/f/xyzkrevr" method="POST">
+      <div class="form-group">
+        <label>Naam*</label>
+        <div class="name-fields">
+          <input type="text" name="firstname" placeholder="Voornaam" required>
+          <input type="text" name="lastname" placeholder="Achternaam" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Geboortedatum*</label>
+        <input type="date" name="birthday" required>
+      </div>
+
+      <div class="form-group">
+        <label>Email*</label>
+        <input type="email" name="email" placeholder="E-mailadres" required>
+      </div>
+
+      <div class="form-group">
+        <label>Woonplaats*</label>
+        <input type="text" name="location" placeholder="Stad, Staat, Land" required>
+      </div>
+
+      <div class="form-group">
+        <label>Indien er zaken zijn dat ik aan je profiel kan toevoegen, laat het hier weten. (Fysieke klachten waarmee ik rekening moet houden)*</label>
+        <textarea name="extra-info" placeholder="Beschrijf eventuele fysieke klachten..." required></textarea>
+      </div>
+
+      <button type="submit">Verstuur</button>
+    </form>
+  </div>
+</section>
 
 
 <section>
