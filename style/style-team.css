@@ -170,7 +170,7 @@ footer p {
     border-radius: 30px;
     background: saddlebrown;
     position: relative;
-    left: -210px;
+    left: 580px;
     width: 250px;
     height: 60px;
     font-size: 20px;
@@ -183,25 +183,6 @@ footer p {
     background: black;
     transition: 0.5s ease-in-out;
 }
-
-.button4 {
-    border-radius: 30px;
-    background: saddlebrown;
-    position: relative;
-    left: -190px;
-    width: 250px;
-    height: 60px;
-    font-size: 20px;
-    transition: 0.5s ease-in-out;
-    padding: 15px;
-    margin: 70px;
-}
-
-.button4:hover {
-    background: black;
-    transition: 0.5s ease-in-out;
-}
-
 
 .image-con1 {
     display: flex;
@@ -216,93 +197,4 @@ footer p {
     height: 20%;
     object-fit: cover;
     border-radius: 1rem 17rem 17rem 1rem;
-}
-
-.container-table{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    text-align: center;
-}
-.tablee, td, tr, th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    width: 50%;
-    height: 50%;
-}
-td, tr{
-    font-size: 20px;
-}
-
-.textb{
-    font-size: 22px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    align-content: baseline;
-}
-.space{
-    margin-left: 45px;
-}
-.space1{
-    margin-left: 28px;
-}
-.space2{
-    margin-left: 18px;
-}
-.space3{
-    margin-left: -25px;
-}
-.button2 {
-    border-radius: 30px;
-    background: saddlebrown;
-    position: relative;
-    left: -130px;
-    width: 250px;
-    height: 60px;
-    font-size: 20px;
-    transition: 0.5s ease-in-out;
-    padding: 15px;
-}
-
-.button2:hover {
-    background: black;
-    transition: 0.5s ease-in-out;
-}
-
-.button3 {
-    border-radius: 30px;
-    background: saddlebrown;
-    position: relative;
-    left: -120px;
-    width: 250px;
-    height: 60px;
-    font-size: 20px;
-    transition: 0.5s ease-in-out;
-    padding: 15px;
-}
-
-.button3:hover {
-    background: black;
-    transition: 0.5s ease-in-out;
-}
-
-.button5 {
-    border-radius: 30px;
-    background: saddlebrown;
-    position: relative;
-    left: -250px;
-    width: 250px;
-    height: 60px;
-    font-size: 20px;
-    transition: 0.5s ease-in-out;
-    padding: 15px;
-}
-
-.button5:hover {
-    background: black;
-    transition: 0.5s ease-in-out;
 }
