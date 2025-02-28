@@ -42,6 +42,8 @@ body {
     font-size: 18px;
     padding: 10px;
     transition: 0.3s;
+    overflow-x: hidden;
+
 }
 
 .navbar:hover {
